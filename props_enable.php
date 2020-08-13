@@ -1,4 +1,5 @@
 <?
+#Скрипт включает отображение свойств в фронтенде торгового каталога, за исключением свойств указанных в массиве $hiden_props
 $_SERVER['DOCUMENT_ROOT'] = '/home/bitrix/ext_www/dev.somebox.ru';
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 function logger($message){
